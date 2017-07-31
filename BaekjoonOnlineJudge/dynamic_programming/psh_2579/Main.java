@@ -21,6 +21,13 @@ public class Main {
 			n[i] = Integer.parseInt(br.readLine());
 		}
 		
+		d[1] = n[1];
+		d[2] = d[1] + n[1];
+		d[3] = n[3] + max(n[1] ,n[2]);
+		
+		for (int i = 4; i <= size; i++) {
+			d[i] = max(d[i-2], d[i-3]+n[i-1]);
+		}
 		
 		System.out.println(d[size]);
 		
