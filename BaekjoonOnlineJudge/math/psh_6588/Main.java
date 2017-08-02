@@ -1,7 +1,12 @@
 package psh_6588;
 
 import java.util.Scanner;
-
+/*
+ * https://www.acmicpc.net/problem/6588
+ * 골드바흐의 추측 - 수학
+ * 2017-08-02
+ * 박성훈
+ * */
 public class Main {
 
 	public static void main(String[] args) {
