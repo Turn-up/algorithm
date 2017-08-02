@@ -2,9 +2,9 @@
 Beakjoon Online Judge <https://www.acmicpc.net>
 
 ## Success
-+<Dynamic Programming>
-+쇠막대기 https://www.acmicpc.net/problem/10799
-+붕어빵 판매기 https://www.acmicpc.net/problem/11052
++ <Dynamic Programming>
++ 쇠막대기 https://www.acmicpc.net/problem/10799
++ 붕어빵 판매기 https://www.acmicpc.net/problem/11052
 +오르막수 https://www.acmicpc.net/problem/11057
 2xN 타일링2 https://www.acmicpc.net/problem/11727
 1로 만들기 https://www.acmicpc.net/problem/1463
