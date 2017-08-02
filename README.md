@@ -1,7 +1,7 @@
 # algorithm
 Beakjoon Online Judge <https://www.acmicpc.net>
-
-# Success
+----------------------------------------------------------------
+## Success
 <Dynamic Programming>
 쇠막대기 https://www.acmicpc.net/problem/10799
 붕어빵 판매기 https://www.acmicpc.net/problem/11052
@@ -14,7 +14,7 @@ Beakjoon Online Judge <https://www.acmicpc.net>
 1,2,3 더하기 https://www.acmicpc.net/problem/9095
 파도반 수열 https://www.acmicpc.net/problem/9461
 
-#Fail
+##Fail
 쉬운 계단수 https://www.acmicpc.net/problem/10844
 스티커 https://www.acmicpc.net/problem/9465
 가장 긴 바이토닉 수열 https://www.acmicpc.net/problem/11054
