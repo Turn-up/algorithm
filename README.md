@@ -2,7 +2,7 @@
 Beakjoon Online Judge <https://www.acmicpc.net>
 
 ## Success
-<Dynamic Programming>
+< Dynamic Programming>
 + 쇠막대기 https://www.acmicpc.net/problem/10799
 + 붕어빵 판매기 https://www.acmicpc.net/problem/11052
 + 오르막수 https://www.acmicpc.net/problem/11057
@@ -15,6 +15,7 @@ Beakjoon Online Judge <https://www.acmicpc.net>
 + 파도반 수열 https://www.acmicpc.net/problem/9461
 
 ##Fail
+————-
 + 쉬운 계단수 https://www.acmicpc.net/problem/10844
 + 스티커 https://www.acmicpc.net/problem/9465
 + 가장 긴 바이토닉 수열 https://www.acmicpc.net/problem/11054
