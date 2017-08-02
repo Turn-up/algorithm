@@ -17,25 +17,19 @@ public class Main {
 		StringBuffer sbReverse = new StringBuffer();
 		
 		int temp = 0;
-		
 		for (int i = 0; i < eightNumber.length(); i++) {
-			temp = Integer.valueOf(eightNumber.charAt(i));
+			temp = Integer.parseInt(eightNumber.charAt(i)+"");
 			sbReverse.delete(0, sbReverse.length());
 			for (int j = 0; j < 3; j++) {
 				sbReverse.append(temp%2);
-				if (temp == 1)
-					sbReverse.append(1);
-				else
-					temp /= 2; 
+				temp /= 2; 
 			}
 			sbTwoNumber.append(sbReverse.reverse());
 		}
-		if (sbTwoNumber.charAt(0) == '0') {
+		if (sbTwoNumber.charAt(0) == '0')
 			sbTwoNumber.deleteCharAt(0);
-			if (sbTwoNumber.charAt(0) == '0'){
-				sbTwoNumber.deleteCharAt(1);
-			}
-		}
+		if (sbTwoNumber.charAt(0) == '0')
+			sbTwoNumber.deleteCharAt(0);
 		System.out.println(sbTwoNumber.toString());
 	}
 }
