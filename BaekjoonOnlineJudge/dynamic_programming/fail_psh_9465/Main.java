@@ -4,12 +4,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
-
-/**
- * 
- * https://www.acmicpc.net/problem/9465 스티커 dp
- * 
- */
+/*
+ * 문제        : https://www.acmicpc.net/problem/9465
+ * 문제 종류 : DP - 스티커
+ * 작성자     : 박성훈
+ * 작성일     : 2017-08-04
+ * */
 public class Main {
 
 	private static Scanner in;
@@ -27,7 +27,7 @@ public class Main {
 		
 		for (int i = 1; i < size + 1; i++) {
 			for (int j = 1; j < size + 1; j++) {
-				n[i][j] = in.nextInt();
+				n[i][j] = in.nextInt();	
 			}
 		}
 
