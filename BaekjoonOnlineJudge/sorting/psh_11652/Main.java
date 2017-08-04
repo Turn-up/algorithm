@@ -6,9 +6,10 @@ import java.io.InputStreamReader;
 
 /*
  * 문제        : https://www.acmicpc.net/problem/11652
- * 문제 종류 : 정렬
+ * 문제 종류 : 카드
  * 작성자     : 박성훈
  * 작성일     : 2017-08-03
+ * 문제 여부 : 성공
  * */
 
 public class Main {
