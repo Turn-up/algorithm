@@ -1,4 +1,4 @@
-package psh_11652;
+package sorting.psh_11652;
 
 import java.io.BufferedReader;
 import java.io.IOException;
