@@ -1,4 +1,4 @@
-package math.psh_1676;
+package psh_1676;
 
 import java.util.Scanner;
 
