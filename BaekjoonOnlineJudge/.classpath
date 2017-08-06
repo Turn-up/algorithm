@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="math"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry excluding="src/|basic_data_structure/|dynamic_programming/" kind="src" path=""/>
 	<classpathentry kind="src" path="basic_data_structure"/>
 	<classpathentry kind="src" path="dynamic_programming"/>
+	<classpathentry kind="src" path="sorting"/>
+	<classpathentry kind="src" path="graph"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
