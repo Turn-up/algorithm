@@ -3,7 +3,12 @@ package psh_2178;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
-
+/*
+ * 문제        : https://www.acmicpc.net/problem/2178
+ * 문제 종류  : 미로찾기 - 그래프
+ * 작성자     : 박성훈
+ * 작성일     : 2017-08-09
+ * */
 public class Main {
 
 	private static int N;
@@ -12,18 +17,25 @@ public class Main {
 	private static int d[][];
 	private static int dx[] = { 0, 0, 1, -1 };
 	private static int dy[] = { 1, -1, 0, 0 };
+	private static int cnt;
+	
 	private static void bfs(int x, int y) {
-		Queue<PairXY> q = new LinkedList();
+		Queue<PairXY> q = new LinkedList<>();
 		q.add(new PairXY(x, y));
-
+		d[1][1] = 1;
+		cnt = 1;
+		
 		while (!q.isEmpty()) {
+			PairXY xy = q.remove();
 			for (int i = 0; i < 4; i++) {
-				PairXY xy = q.remove();
 				int nx = xy.x + dx[i];
 				int ny = xy.y + dy[i];
 				
-				if (1 <= nx && nx <=N && 1 <= ny && ny <=N) {
-					
+				if (1 <= nx && nx <= N && 1 <= ny && ny <= M) {
+					if (a[nx][ny] == 1 && d[nx][ny] == 0){
+						q.add(new PairXY(nx, ny));
+						d[nx][ny] = d[xy.x][xy.y] + 1;
+					}
 				}
 			}
 		}
@@ -47,6 +59,7 @@ public class Main {
 		}
 
 		bfs(1,1);
+		System.out.println(d[N][M]);
 	}
 	static class PairXY {
 		int x;
