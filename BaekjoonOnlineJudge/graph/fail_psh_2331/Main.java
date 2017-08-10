@@ -1,4 +1,4 @@
-package psh_2331;
+package fail_psh_2331;
 
 import java.util.ArrayList;
 import java.util.Scanner;
