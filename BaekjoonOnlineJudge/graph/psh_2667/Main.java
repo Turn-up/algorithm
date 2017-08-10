@@ -7,7 +7,7 @@ import java.util.Queue;
 import java.util.Scanner;
 
 /*
- * 문제        : https://www.acmicpc.net/problem/2667
+ * 문제       : https://www.acmicpc.net/problem/2667
  * 문제 종류  : 단지번호 -그래프
  * 작성자     : 박성훈
  * 작성일     : 2017-08-09
@@ -72,7 +72,6 @@ public class Main {
 				}
 			}
 		}
-
 		return result;
 	}
 
