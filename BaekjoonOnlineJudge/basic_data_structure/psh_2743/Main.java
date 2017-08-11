@@ -13,6 +13,5 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		String s = in.next();
 		System.out.println(s.length());
-
 	}
 }
