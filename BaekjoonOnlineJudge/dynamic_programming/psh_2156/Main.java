@@ -20,7 +20,7 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		int size = in.nextInt();
 		int a[] = new int[size + 1];
-		long d[][] = new long[size+1][3];
+		long  d[][] = new long[size+1][3];
 		for (int i = 1; i <= size; i++) {
 
 			a[i] = in.nextInt();
