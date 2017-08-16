@@ -1,7 +1,12 @@
 package psh_1934;
 
 import java.util.Scanner;
-
+/*
+ * 문제       : https://www.acmicpc.net/problem/1934
+ * 문제 종류  : 최소공배수 -수학
+ * 작성자     : 박성훈
+ * 작성일     : 2017-08-16
+ * */
 public class Main {
 
 	public static void main(String[] args) {
