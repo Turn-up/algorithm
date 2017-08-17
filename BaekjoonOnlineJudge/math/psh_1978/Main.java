@@ -24,14 +24,14 @@ public class Main {
 		}
 		for (int i=2; i <1001; i++) {
 			if (s[i] != 0) {
-				for (int j=i*i; j < 1001; j +=i) {
+				for (int j=i*i; j < 1001; j *=i) {
 					s[j] = 0;
 				}
 			}
 		}
 		int result = 0;
 		for (int num : a) {
-			if (s[num] != 0 && s[num] != 1)
+			if (s[num] != 0)
 				result++;
 		}
 		System.out.println(result);
