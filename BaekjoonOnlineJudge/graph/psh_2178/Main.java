@@ -17,13 +17,11 @@ public class Main {
 	private static int d[][];
 	private static int dx[] = { 0, 0, 1, -1 };
 	private static int dy[] = { 1, -1, 0, 0 };
-	private static int cnt;
 	
 	private static void bfs(int x, int y) {
 		Queue<PairXY> q = new LinkedList<>();
 		q.add(new PairXY(x, y));
 		d[1][1] = 1;
-		cnt = 1;
 		
 		while (!q.isEmpty()) {
 			PairXY xy = q.remove();
