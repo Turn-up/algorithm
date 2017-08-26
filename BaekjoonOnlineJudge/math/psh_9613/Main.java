@@ -3,7 +3,7 @@ package psh_9613;
 import java.util.Scanner;
 /*
  * 문제       : https://www.acmicpc.net/problem/9613
- * 문제 종류  : 수학
+ * 문제 종류 : 수학
  * 작성자     : 박성훈
  * 작성일     : 2017-08-17
  * */

@@ -22,7 +22,7 @@ public class Main {
 			sbReverse.delete(0, sbReverse.length());
 			for (int j = 0; j < 3; j++) {
 				sbReverse.append(temp%2);
-				temp /= 2; 
+				temp /= 2;
 			}
 			sbTwoNumber.append(sbReverse.reverse());
 		}
